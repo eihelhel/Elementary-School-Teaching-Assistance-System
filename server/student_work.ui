@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>student_work</class>
+ <widget class="QWidget" name="student_work">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>945</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>21</y>
+     <width>820</width>
+     <height>297</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700;&quot;&gt;请学生自行选择任务&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>目前分数与正确率为：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="scoreworklabel">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="rateworklabel">
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;note:除法保留两位小数，采用四舍五入。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_one_Button">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>任务 1：随机产生 1 - 10 之间正整数，出乘法问题，学生答对后自动返回此页面(此为试用，不统计总分与正确率)。</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_two_Button">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>任务 2：在任务 1 基础上，随机产生 1 道四则运算题，当学生答错时，最多给三次机会(此为试用，不统计总分与正确率)。</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_three_Button">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>任务 3：在任务 1 基础上，连做 10 道乘法题，不给机会重做，统计总分、正确率。</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_four_Button">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>任务 4：在任务 3 基础上，随机产生 10 道四则运算题，不给机会重做，统计总分、正确率。</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="text_five_Button">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>任务 5：在任务 4 基础上，若回答正确率低于 75 % ，则再做 10 道题，直到正确率高于 75 % 为止。</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="backButton">
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
